@@ -1,0 +1,123 @@
+/* VARIABLES */
+
+:root,
+[data-theme="light"] {
+    --main-color: #009f4d;
+    --sub-color: #3f3a64;
+    --text: #666;
+    --border: 8px;
+    --border-color: #eee;
+    --bg-light: #fff;
+    --bg-dark: #f7f7f7;
+}
+
+[data-theme="dark"] {
+    --sub-color: #fff;
+    --text: #c2c2c2;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --bg-light: #151421;
+    --bg-dark: #100f19;
+}
+
+/* GLOBAL CSS */
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 27px;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+input,
+textarea,
+button {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    font-family: 'Jost', sans-serif;
+    background-color: transparent;
+}
+
+.title h3 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 3px;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+    display: block;
+}
+
+.title h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    color: var(--sub-color);
+}
+
+/* MAIN CSS */
+
+/* ABOUT */
+
+.about {
+    background-color: var(--bg-light);
+}
+
+.about__left p {
+    font-size: 17px;
+    color: var(--text);
+    opacity: 0.8;
+}
+
+.about__left li {
+    margin-bottom: 15px;
+}
+
+.about__left a {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: var(--sub-color);
+}
+
+.about__left i {
+    color: var(--main-color);
+    margin-right: 5px;
+}
+
+.about__right img {
+    border-radius: var(--border);
+}
