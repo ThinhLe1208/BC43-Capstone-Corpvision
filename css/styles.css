@@ -91,35 +91,3 @@ button {
 }
 
 /* MAIN CSS */
-
-/* ABOUT */
-
-.about {
-    background-color: var(--bg-light);
-}
-
-.about__left p {
-    font-size: 17px;
-    color: var(--text);
-    opacity: 0.8;
-}
-
-.about__left li {
-    margin-bottom: 15px;
-}
-
-.about__left a {
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 600;
-    color: var(--sub-color);
-}
-
-.about__left i {
-    color: var(--main-color);
-    margin-right: 5px;
-}
-
-.about__right img {
-    border-radius: var(--border);
-}
