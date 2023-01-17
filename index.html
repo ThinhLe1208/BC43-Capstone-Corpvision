@@ -30,10 +30,125 @@
 
 <body>
 
-    <header class="header"></header>
+    <!-- HEADER -->
+    <header class="header fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+
+                <a class="navbar-brand d-flex flex-start w-25" href="#">
+                    <i class="fa fa-align-right me-2 mt-1"></i>
+                    <div class="d-flex flex-column align-items-center">
+                        <span>Corp Vision</span>
+                        <span>Vision to your Future</span>
+                    </div>
+                </a>
+
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa fa-times"></i>
+                </button>
+
+                <div class="collapse navbar-collapse w-75 ms-auto" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PAGES
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu py-4">
+                                <li><a class="dropdown-item" href="#">Blog Posts</a></li>
+                                <li><a class="dropdown-item" href="#">404 page</a></li>
+                                <li><a class="dropdown-item" href="#">Landing page</a></li>
+                                <li><a class="dropdown-item" href="#">Elements page</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <div class="header__search d-flex align-items-center">
+                    <form class="d-flex" role="search">
+                        <input class="form-control" placeholder="Start Typing" aria-label="Search">
+                        <div class="header__search-control">
+                            <div class="search-open">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <i class="fa fa-times search-close"></i>
+                        </div>
+                    </form>
+
+                    <!-- THEME BUTTON -->
+                    <div class="header__theme-btn">
+                        <label for="header__theme-checkbox" class="theme-switch d-block text-white fs-1"
+                            style="cursor: pointer;">
+                            <input type="checkbox" id="header__theme-checkbox" class="header__checkbox d-none">
+                            <i class="fa-regular fa-moon"></i>
+                            <i class="fa-regular fa-sun header__sun"></i>
+                        </label>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
     <section class="slider"></section>
 
-    <section class="work"></section>
+    <!-- WORK -->
+    <section class="work py-5">
+        <div class="container py-2 py-md-4 py-lg-5">
+            <div class="row">
+                <div class="work__left col-12 col-lg-6 pe-5">
+                    <div class="title">
+                        <h3>EVERY DAY BRINGS NEW CHALLENGES</h3>
+                        <h2>Creative agency focused on vision, product and people</h2>
+                    </div>
+                    <p>Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
+                        lacinia est. Quisque
+                        ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit.
+                        Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.</p>
+                    <a href="#" class="mt-4 mt-lg-5">Discover More</a>
+                </div>
+                <div class="work__right mt-4 mt-md-5 mt-lg-0 col-12 col-lg-6">
+                    <div class="row">
+                        <div class="work__item col-6">
+                            <img src="./images/icon1.png" alt="icon1">
+                            <a href="#">Our Process</a>
+                        </div>
+                        <div class="work__item col-6">
+                            <img src="./images/icon2.png" alt="icon2">
+                            <a href="#">How We Help</a>
+                        </div>
+                        <div class="work__item col-6">
+                            <img src="./images/icon3.png" alt="icon3">
+                            <a href="#">UI/UX Design</a>
+                        </div>
+                        <div class="work__item col-6">
+                            <img src="./images/icon4.png" alt="icon4">
+                            <a href="#">Creative Ideas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="services"></section>
     <section class="gallery"></section>
     <section class="progress"></section>
@@ -42,16 +157,6 @@
     <section class="subscribe"></section>
     <footer class="footer"></footer>
 
-
-    <!-- THEME BUTTON -->
-    <div>
-        <label for="checkbox"
-            class="theme-switch position-fixed bottom-0 left-0 bg-primary text-white fw-bolder rounded-3 px-5 py-4  m-4"
-            style="cursor: pointer;">
-            <span>THEME</span>
-            <input type="checkbox" id="checkbox" class="d-none">
-        </label>
-    </div>
 
     <!-- MAIN JS -->
     <script src="./js/main.js"></script>
