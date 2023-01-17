@@ -170,4 +170,10 @@
         font-size: 27px;
         line-height: 30px;
     }
+
+    /* NEWS */
+
+    .news .card-body a:last-child {
+        font-size: 18px;
+    }
 }
