@@ -69,10 +69,6 @@
 
     /* WORK */
 
-    .work .title h2 {
-        font-size: 32px;
-    }
-
     .work .work__left p {
         font-size: 17px;
     }
@@ -103,6 +99,12 @@
 }
 
 @media screen and (max-width: 575.98px) {
+
+    /* GLOBAL */
+
+    .title h2 {
+        font-size: 30px;
+    }
 
     /* HEADER */
 
@@ -156,8 +158,13 @@
 
 @media screen and (max-width: 415px) {
 
-    /* SLIDER */
+    /* GLOBAL */
 
+    .title h2 {
+        font-size: 24px;
+    }
+
+    /* SLIDER */
 
     .slider .carousel-caption h5 {
         font-size: 27px;

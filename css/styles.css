@@ -248,7 +248,7 @@ button {
     transform: translate(10%, -50%);
     transition: all linear 0.3s;
     z-index: 15;
-    /* display: none; */
+    display: none;
 }
 
 .header__search input::placeholder {
@@ -358,8 +358,8 @@ body.search-active .search-close {
 
 .header .navbar-toggler {
     background-color: var(--main-color);
-    max-width: 44px;
-    padding: 6px 10px;
+    width: 37px;
+    padding: 6px 0;
     order: 3;
 }
 
@@ -386,10 +386,18 @@ body.search-active .search-close {
     align-items: center;
 }
 
+.header .navbar-collapse .nav-item.dropdown {
+    text-align: center;
+}
+
 /* SLIDER */
 
 .slider .carousel-inner {
     height: 800px;
+}
+
+.slider .carousel-item {
+    position: static;
 }
 
 .slider .carousel-item {
@@ -501,6 +509,38 @@ body.search-active .search-close {
     z-index: 4;
 }
 
+/* ABOUT */
+
+.about {
+    background-color: var(--bg-light);
+}
+
+.about__left p {
+    font-size: 17px;
+    color: var(--text);
+    opacity: 0.8;
+}
+
+.about__left li {
+    margin-bottom: 15px;
+}
+
+.about__left a {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: var(--sub-color);
+}
+
+.about__left i {
+    color: var(--main-color);
+    margin-right: 5px;
+}
+
+.about__right img {
+    border-radius: var(--border);
+}
+
 /* WORK */
 
 .work {
@@ -566,5 +606,66 @@ body.search-active .search-close {
 }
 
 .work__right .work__item a:hover {
+    color: var(--main-color);
+}
+
+/* SERVICES */
+
+.services {
+    background-color: var(--bg-light);
+}
+
+.services .card {
+    background-color: var(--bg-light);
+    border: none;
+    border-radius: var(--border);
+}
+
+.services .services__img {
+    cursor: pointer;
+}
+
+.services .card-body {
+    position: relative;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.services .services__title {
+    display: inline-block;
+    transform: translateY(-25px);
+    color: var(--sub-color);
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    background-color: var(--bg-light);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border);
+    padding: 12px 35px;
+    margin: auto;
+    transition: all linear 0.3s;
+}
+
+.services .card:hover .services__title {
+    color: var(--main-color);
+}
+
+.services .card-body p {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text);
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+
+.services .card-body a:last-child {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--sub-color);
+    padding: 8px 35px;
+    transition: all linear 0.3s;
+}
+
+.services .card-body a:last-child:hover {
     color: var(--main-color);
 }
