@@ -96,6 +96,13 @@
     .work .work__right .work__item {
         padding: 24px;
     }
+
+    /* FOOTER */
+
+    .footer .footer__content h3 {
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (max-width: 575.98px) {
@@ -117,7 +124,7 @@
     }
 
     .header .navbar-brand span:last-child {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .header .header__theme-btn {
@@ -154,6 +161,27 @@
     .work .work__right .work__item img {
         max-width: 45px;
     }
+
+    /* FOOTER */
+
+    .footer .footer__content i {
+        font-size: 17px;
+    }
+
+    .footer .footer__content .footer__logo span:first-child {
+        font-size: 26px;
+    }
+
+    .footer .footer__content .footer__logo span:last-child {
+        font-size: 14px;
+    }
+
+    .footer .footer__content p,
+    .footer .footer__content span,
+    .footer .footer__content a {
+        font-size: 17px;
+    }
+
 }
 
 @media screen and (max-width: 415px) {
