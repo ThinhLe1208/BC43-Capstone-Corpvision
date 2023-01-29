@@ -1,56 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Corpvision – Corporate Category Website WordPress Theme – Just another
-      W3Layouts free WordPress Demo Sites site
+        Corpvision – Corporate Category Website WordPress Theme – Just another
+        W3Layouts free WordPress Demo Sites site
     </title>
-    <link
-      rel="shortcut icon"
-      href="./assets/img/w3layouts.jpeg"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="./assets/img/w3layouts.jpeg" type="image/x-icon" />
 
     <!-- bootstrap 4.6 -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
     <!-- bootstrap 4.6 -->
 
     <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <!-- font awesome -->
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet" />
     <!-- google fonts -->
 
     <!-- slick -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- slick -->
 
-    <!-- owl carousel -->
-    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
-    <!-- owl carousel -->
+    <!-- ANIMATE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- OWL2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 
     <!-- my css -->
     <link rel="stylesheet" href="./css/theme2.css">
@@ -58,401 +48,786 @@
     <!-- my css -->
 
     <!-- fancybox -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
-      integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- fancybox -->
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+        integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <body id="mybody">
-    <section class="about py-5">
-      <div class="container py-lg-5 py-md-3">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <span class="title__small">ABOUT US</span>
-            <h3 class="title__big">
-              We make the best strategies for you, Enhancing your success
-            </h3>
-            <p class="title__p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud ullamco laboris nisi ut ex ea.
-            </p>
-            <ul class="list-unstyled pt-lg-2 mt-4 mb-0">
-              <li>
-                <a href="#">
-                  <i class="fa fa-check-circle"></i>
-                  UI/UX Design and Development
+</head>
+
+<body>
+    <!-- <body id="mybody"> -->
+
+    <!-- HEADER -->
+    <header class="header fixed-top">
+
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+
+                <a class="navbar-brand d-flex flex-start" href="#">
+                    <i class="fa fa-align-right me-2 mt-1"></i>
+                    <div class="d-flex flex-column align-items-center">
+                        <span>Corp Vision</span>
+                        <span>Vision to your Future</span>
+                    </div>
                 </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-check-circle"></i>
-                  Branding Design and Identity
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-check-circle"></i>
-                  Mobile App Design and Development
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="about__image col-lg-6 mt-lg-0 mt-md-5 mt-4">
-            <div class="row">
-              <div class="col-6">
-                <img class="img-fluid" src="./images/a.jpg" alt="a" />
-              </div>
-              <div class="col-6 mt-4">
-                <img
-                  class="img-fluid mb-md-3 mb-2"
-                  src="./images/c1.jpg"
-                  alt="c1"
-                />
-                <img class="img-fluid mt-md-3" src="./images/c4.jpg" alt="c4" />
-              </div>
-            </div>
-          </div>
+
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa fa-times"></i>
+                </button>
+
+                <div class="collapse navbar-collapse w-75 ms-auto" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PAGES
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu py-4">
+                                <li><a class="dropdown-item" href="#">Blog Posts</a></li>
+                                <li><a class="dropdown-item" href="#">404 page</a></li>
+                                <li><a class="dropdown-item" href="#">Landing page</a></li>
+                                <li><a class="dropdown-item" href="#">Elements page</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="header__search d-flex align-items-center">
+                    <form class="d-flex" role="search">
+                        <input class="form-control input-search" placeholder="Start Typing" aria-label="Search">
+                        <div class="header__search-control">
+                            <div class="search-open">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <i class="fa fa-times search-close"></i>
+                        </div>
+                    </form>
+
+                    <!-- THEME BUTTON -->
+                    <div class="header__theme-btn">
+                        <label for="header__theme-checkbox" class="theme-switch d-block text-white fs-1"
+                            style="cursor: pointer;">
+                            <input type="checkbox" id="header__theme-checkbox" class="header__checkbox d-none">
+                            <i class="fa-regular fa-moon"></i>
+                            <i class="fa-regular fa-sun header__sun"></i>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="header__overlay"></div>
+
+            </nav>
         </div>
-      </div>
+    </header>
+
+    <!-- SLIDER -->
+    <section class="slider">
+        <div id="slider-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./images/b1.jpg" class="d-block w-100" alt="b1">
+                    <div class="position-absolute top-0 start-0 end-0 bottom-0">
+                        <div class="carousel-caption container d-block">
+                            <h5 class="animate__animated animate__flipInX animate__delay-1s">We will solve your
+                                issues our vision to your
+                                future</h5>
+                            <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit
+                                amet, elit, sed
+                                do
+                                eiusmod ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea. </p>
+                            <div class="animate__animated animate__fadeInDown animate__delay-1s">
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__overlay"></div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/b2.jpg" class="d-block w-100" alt="b2">
+                    <div class="position-absolute top-0 start-0 end-0 bottom-0">
+                        <div class="carousel-caption container d-block">
+                            <h5 class="animate__animated animate__fadeInUp animate__delay-1s">Embracing success do our
+                                best, need best advice</h5>
+                            <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, elit, sed do
+                                eiusmod ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+                            <div class="animate__animated animate__fadeInDown animate__delay-1s">
+                                <a href="#">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__overlay"></div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/b3.jpg" class="d-block w-100" alt="b3">
+                    <div class="position-absolute top-0 start-0 end-0 bottom-0">
+                        <div class="carousel-caption container d-block">
+                            <h5 class="animate__animated animate__fadeInUp animate__delay-1s">Digital transformation
+                                driven by technology</h5>
+                            <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, elit, sed do
+                                eiusmod ut labore et dolore
+                                magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+                            <div class="animate__animated animate__fadeInDown animate__delay-1s">
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__overlay"></div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/b4.jpg" class="d-block w-100" alt="b4">
+                    <div class="position-absolute top-0 start-0 end-0 bottom-0">
+                        <div class="carousel-caption container d-block">
+                            <h5 class="animate__animated animate__flipInX animate__delay-1s">For those who believe in
+                                leaving a mark</h5>
+                            <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, elit, sed do
+                                eiusmod ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+                            <div class="animate__animated animate__fadeInUp animate__delay-1s">
+                                <a href="#">Contact Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__overlay"></div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#slider-carousel"
+                    data-bs-slide="prev">
+                    <i class="fa fa-arrow-left"></i>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#slider-carousel"
+                    data-bs-slide="next">
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <div class="shape">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
+                    <path fill-opacity="1">
+                        <animate attributeName="d" dur="20000ms" repeatCount="indefinite"
+                            values="M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z; M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,170.7C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;">
+                        </animate>
+                    </path>
+                </svg>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about"></section>
+
+    <!-- WORK -->
+    <section class="work py-5">
+        <div class="container py-2 py-md-4 py-lg-5">
+            <div class="row align-items-center">
+
+                <div class="work__left col-12 col-lg-6 pe-5">
+                    <div class="title">
+                        <h3>EVERY DAY BRINGS NEW CHALLENGES</h3>
+                        <h2>Creative agency focused on vision, product and people</h2>
+                    </div>
+                    <p>Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
+                        lacinia est. Quisque
+                        ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit.
+                        Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.</p>
+                    <a href="#" class="mt-4 mt-lg-5">Discover More</a>
+                </div>
+
+                <div class="work__right mt-4 mt-md-5 mt-lg-0 col-12 col-lg-6">
+                    <div class="row px-2 px-sm-0">
+                        <div class="work__item col-6">
+                            <img src="./images/icon1.png" alt="icon1">
+                            <a href="#">Our Process</a>
+                        </div>
+                        <div class="work__item col-6">
+                            <img src="./images/icon2.png" alt="icon2">
+                            <a href="#">How We Help</a>
+                        </div>
+                        <div class="work__item col-6">
+                            <img src="./images/icon3.png" alt="icon3">
+                            <a href="#">UI/UX Design</a>
+                        </div>
+                        <div class="work__item col-6">
+                            <img src="./images/icon4.png" alt="icon4">
+                            <a href="#">Creative Ideas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about py-5">
+        <div class="container py-lg-5 py-md-3">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <span class="title__small">ABOUT US</span>
+                    <h3 class="title__big">
+                        We make the best strategies for you, Enhancing your success
+                    </h3>
+                    <p class="title__p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud ullamco laboris nisi ut ex ea.
+                    </p>
+                    <ul class="list-unstyled pt-lg-2 mt-4 mb-0">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-check-circle"></i>
+                                UI/UX Design and Development
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-check-circle"></i>
+                                Branding Design and Identity
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-check-circle"></i>
+                                Mobile App Design and Development
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about__image col-lg-6 mt-lg-0 mt-md-5 mt-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <img class="img-fluid" src="./images/a.jpg" alt="a" />
+                        </div>
+                        <div class="col-6 mt-4">
+                            <img class="img-fluid mb-md-3 mb-2" src="./images/c1.jpg" alt="c1" />
+                            <img class="img-fluid mt-md-3" src="./images/c4.jpg" alt="c4" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- gallery -->
     <section class="gallery py-5">
-      <div class="container py-lg-5 py-md-4 py-2">
-        <div class="gallery__title text-center">
-          <p class="gallery__title-small">OUR GALLERY</p>
-          <h3 class="gallery__title-big">Successful projects we've done</h3>
+        <div class="container py-lg-5 py-md-4 py-2">
+            <div class="gallery__title text-center">
+                <p class="gallery__title-small">OUR GALLERY</p>
+                <h3 class="gallery__title-big">Successful projects we've done</h3>
+            </div>
+            <div class="row mt-lg-5 mt-4">
+                <a href="./images/c1.jpg" class="d-block col-lg-4 col-md-6  gallery__item" data-fancybox="gallery"
+                    data-caption="Project 1">
+                    <div class="gallery__img">
+                        <img src="./images/c1.jpg" alt="" class="card-img-bottom" />
+                    </div>
+                    <div class="gallery__cont py-4 px-5">
+                        <p class="gallery__cont-title">Project 1</p>
+                        <p class="gallery__cont-content">
+                            Quisque ut lectus, eros et, sed commodo risus.
+                        </p>
+                    </div>
+                </a>
+                <a href="./images/c2.jpg" class="d-block col-lg-4 col-md-6  gallery__item" data-fancybox="gallery"
+                    data-caption="Project 2">
+                    <div class="gallery__img">
+                        <img src="./images/c2.jpg" alt="" class="card-img-bottom" />
+                    </div>
+                    <div class="gallery__cont py-4 px-5">
+                        <p class="gallery__cont-title">Project 2</p>
+                        <p class="gallery__cont-content">
+                            Quisque ut lectus, eros et, sed commodo risus.
+                        </p>
+                    </div>
+                </a>
+                <a href="./images/c3.jpg" class="d-block col-lg-4 col-md-6  gallery__item" data-fancybox="gallery"
+                    data-caption="Project 3">
+                    <div class="gallery__img">
+                        <img src="./images/c3.jpg" alt="" class="card-img-bottom" />
+                    </div>
+                    <div class="gallery__cont py-4 px-5">
+                        <p class="gallery__cont-title">Project 3</p>
+                        <p class="gallery__cont-content">
+                            Quisque ut lectus, eros et, sed commodo risus.
+                        </p>
+                    </div>
+                </a>
+                <a href="./images/c4.jpg" class="d-block col-lg-4 col-md-6  gallery__item" data-fancybox="gallery"
+                    data-caption="Project 4">
+                    <div class="gallery__img">
+                        <img src="./images/c4.jpg" alt="" class="card-img-bottom" />
+                    </div>
+                    <div class="gallery__cont py-4 px-5">
+                        <p class="gallery__cont-title">Project 4</p>
+                        <p class="gallery__cont-content">
+                            Quisque ut lectus, eros et, sed commodo risus.
+                        </p>
+                    </div>
+                </a>
+                <a href="./images/c5.jpg" class="d-block col-lg-4 col-md-6  gallery__item" data-fancybox="gallery"
+                    data-caption="Project 5">
+                    <div class="gallery__img">
+                        <img src="./images/c5.jpg" alt="" class="card-img-bottom" />
+                    </div>
+                    <div class="gallery__cont py-4 px-5">
+                        <p class="gallery__cont-title">Project 5</p>
+                        <p class="gallery__cont-content">
+                            Quisque ut lectus, eros et, sed commodo risus.
+                        </p>
+                    </div>
+                </a>
+                <a href="./images/c6.jpg" class="d-block col-lg-4 col-md-6  gallery__item" data-fancybox="gallery"
+                    data-caption="Project 6">
+                    <div class="gallery__img">
+                        <img src="./images/c6.jpg" alt="" class="card-img-bottom" />
+                    </div>
+                    <div class="gallery__cont py-4 px-5">
+                        <p class="gallery__cont-title">Project 6</p>
+                        <p class="gallery__cont-content">
+                            Quisque ut lectus, eros et, sed commodo risus.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="row pt-5 mt-5 justify-content-center gallery__footer">
+                <div class="col-4 col-lg-2 col-md-3">
+                    <img src="./images/brand1.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-4 col-lg-2 col-md-3">
+                    <img src="./images/brand6.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-4 col-lg-2 col-md-3">
+                    <img src="./images/brand3.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-4 col-lg-2 col-md-3 mt-md-0 mt-4">
+                    <img src="./images/brand4.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-4 col-lg-2 col-md-3 mt-lg-0 mt-4">
+                    <img src="./images/brand5.png" alt="" class="img-fluid" />
+                </div>
+            </div>
         </div>
-        <div class="row mt-lg-5 mt-4">
-          <a
-            href="./images/c1.jpg"
-            class="d-block col-lg-4 col-md-6  gallery__item"
-            data-fancybox="gallery"
-            data-caption="Project 1"
-          >
-            <div class="gallery__img">
-              <img src="./images/c1.jpg" alt="" class="card-img-bottom" />
-            </div>
-            <div class="gallery__cont py-4 px-5">
-              <p class="gallery__cont-title">Project 1</p>
-              <p class="gallery__cont-content">
-                Quisque ut lectus, eros et, sed commodo risus.
-              </p>
-            </div>
-          </a>
-          <a
-            href="./images/c2.jpg"
-            class="d-block col-lg-4 col-md-6  gallery__item"
-            data-fancybox="gallery"
-            data-caption="Project 2"
-          >
-            <div class="gallery__img">
-              <img src="./images/c2.jpg" alt="" class="card-img-bottom" />
-            </div>
-            <div class="gallery__cont py-4 px-5">
-              <p class="gallery__cont-title">Project 2</p>
-              <p class="gallery__cont-content">
-                Quisque ut lectus, eros et, sed commodo risus.
-              </p>
-            </div>
-          </a>
-          <a
-            href="./images/c3.jpg"
-            class="d-block col-lg-4 col-md-6  gallery__item"
-            data-fancybox="gallery"
-            data-caption="Project 3"
-          >
-            <div class="gallery__img">
-              <img src="./images/c3.jpg" alt="" class="card-img-bottom" />
-            </div>
-            <div class="gallery__cont py-4 px-5">
-              <p class="gallery__cont-title">Project 3</p>
-              <p class="gallery__cont-content">
-                Quisque ut lectus, eros et, sed commodo risus.
-              </p>
-            </div>
-          </a>
-          <a
-            href="./images/c4.jpg"
-            class="d-block col-lg-4 col-md-6  gallery__item"
-            data-fancybox="gallery"
-            data-caption="Project 4"
-          >
-            <div class="gallery__img">
-              <img src="./images/c4.jpg" alt="" class="card-img-bottom" />
-            </div>
-            <div class="gallery__cont py-4 px-5">
-              <p class="gallery__cont-title">Project 4</p>
-              <p class="gallery__cont-content">
-                Quisque ut lectus, eros et, sed commodo risus.
-              </p>
-            </div>
-          </a>
-          <a
-            href="./images/c5.jpg"
-            class="d-block col-lg-4 col-md-6  gallery__item"
-            data-fancybox="gallery"
-            data-caption="Project 5"
-          >
-            <div class="gallery__img">
-              <img src="./images/c5.jpg" alt="" class="card-img-bottom" />
-            </div>
-            <div class="gallery__cont py-4 px-5">
-              <p class="gallery__cont-title">Project 5</p>
-              <p class="gallery__cont-content">
-                Quisque ut lectus, eros et, sed commodo risus.
-              </p>
-            </div>
-          </a>
-          <a
-            href="./images/c6.jpg"
-            class="d-block col-lg-4 col-md-6  gallery__item"
-            data-fancybox="gallery"
-            data-caption="Project 6"
-          >
-            <div class="gallery__img">
-              <img src="./images/c6.jpg" alt="" class="card-img-bottom" />
-            </div>
-            <div class="gallery__cont py-4 px-5">
-              <p class="gallery__cont-title">Project 6</p>
-              <p class="gallery__cont-content">
-                Quisque ut lectus, eros et, sed commodo risus.
-              </p>
-            </div>
-          </a>
-        </div>
-        <div class="row pt-5 mt-5 justify-content-center gallery__footer">
-          <div class="col-4 col-lg-2 col-md-3">
-            <img src="./images/brand1.png" alt="" class="img-fluid" />
-          </div>
-          <div class="col-4 col-lg-2 col-md-3">
-            <img src="./images/brand6.png" alt="" class="img-fluid" />
-          </div>
-          <div class="col-4 col-lg-2 col-md-3">
-            <img src="./images/brand3.png" alt="" class="img-fluid" />
-          </div>
-          <div class="col-4 col-lg-2 col-md-3 mt-md-0 mt-4">
-            <img src="./images/brand4.png" alt="" class="img-fluid" />
-          </div>
-          <div class="col-4 col-lg-2 col-md-3 mt-lg-0 mt-4">
-            <img src="./images/brand5.png" alt="" class="img-fluid" />
-          </div>
-        </div>
-      </div>
     </section>
     <!--end gallery -->
 
+    <!-- SERVICES -->
+    <section class="services py-5">
+        <div class="container py-2 py-md-4 py-lg-5">
+            <div class="row justify-content-center">
+
+                <div class="title text-center mb-5">
+                    <h2>Always there for your care, our Services</h2>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="services__img">
+                            <img src="./images/s1.jpg" class="card-img-top d-block" alt="s1">
+                        </div>
+                        <div class="card-body text-center">
+                            <a href="#" class="services__title">Work Expertise</a>
+                            <p class="card-text">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..
+                            </p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+                    <div class="card">
+                        <div class="services__img">
+                            <img src="./images/s2.jpg" class="card-img-top d-block" alt="s2">
+                        </div>
+                        <div class="card-body text-center">
+                            <a href="#" class="services__title">Product Development</a>
+                            <p class="card-text">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..
+                            </p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0">
+                    <div class="card">
+                        <div class="services__img">
+                            <img src="./images/s3.jpg" class="card-img-top d-block" alt="s3">
+                        </div>
+                        <div class="card-body text-center">
+                            <a href="#" class="services__title">Software Development</a>
+                            <p class="card-text">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..
+                            </p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery"></section>
+
+    <!-- PROGRESS -->
+    <section class="progress"></section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials"></section>
+
+    <!-- NEWS -->
+    <section class="news py-5">
+        <div class="container py-2 py-md-4 py-lg-5">
+            <div class="title">
+                <h3>LATEST NEWS</h3>
+                <h2 class="mb-4 mb-sm-5">Our insight and articles</h2>
+            </div>
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="news__img">
+                            <img src="./images/blog1.jpg" class="card-img-top" alt="blog1">
+                        </div>
+                        <div class="card-body">
+                            <a href="#">Startup Business</a>
+                            <div>
+                                <a href="#">Hello world!</a>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div class="new__footer-left d-flex justify-content-between align-items-center">
+                                <a href="#"><img src="./images/328cc1f23e4a3b73aa60ee6ced1897a1.jpeg" alt=""></a>
+                                <span>by</span>
+                                <a href="#">W3Layouts</a>
+                            </div>
+                            <p class="new__footer-right m-0">April 1, 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="news__img">
+                            <img src="./images/blog2.jpg" class="card-img-top" alt="blog2">
+                        </div>
+                        <div class="card-body">
+                            <a href="#">Startup Business</a>
+                            <div>
+                                <a href="#">Companies in NY launched a joint project on a three-tower hall</a>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div class="new__footer-left d-flex justify-content-between align-items-center">
+                                <a href="#"><img src="./images/328cc1f23e4a3b73aa60ee6ced1897a1.jpeg" alt=""></a>
+                                <span>by</span>
+                                <a href="#">W3Layouts</a>
+                            </div>
+                            <p class="new__footer-right m-0">April 1, 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="news__img">
+                            <img src="./images/blog3.jpg" class="card-img-top" alt="blog3">
+                        </div>
+                        <div class="card-body">
+                            <a href="#">Marketing Strategy</a>
+                            <div>
+                                <a href="#">Design breakthrough upgrades the product and ready to launch</a>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div class="new__footer-left d-flex justify-content-between align-items-center">
+                                <a href="#"><img src="./images/328cc1f23e4a3b73aa60ee6ced1897a1.jpeg" alt=""></a>
+                                <span>by</span>
+                                <a href="#">W3Layouts</a>
+                            </div>
+                            <p class="new__footer-right m-0">April 1, 2021</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SUBCRIBE -->
+    <section class="subscribe"></section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__content py-5">
+            <div class="container py-2 py-md-4 py-lg-5">
+                <div class="row">
+
+                    <div class="footer__about pe-0 pe-md-5 col-12 col-md-6 col-lg-4">
+                        <div class="footer__logo d-flex flex-start">
+                            <i class="fa fa-align-right me-2 mt-1"></i>
+                            <div class="d-flex flex-column align-items-center">
+                                <span>Corp Vision</span>
+                                <span>Vision to your Future</span>
+                            </div>
+                        </div>
+                        <p class="mb-3 mb-md-4 mt-4">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                            ultrices in ligula. Semper at
+                            tempufddfel. Lorem ipsum dolor sit amet Semper at elit team advisors.</p>
+                        <div class="footer__socials">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer__contact col-12 col-md-6 col-lg-4 pe-0 pe-md-5 mt-5 mt-md-0">
+                        <h3>CONTACT INFO</h3>
+                        <p>Address : Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617.</p>
+                        <ul>
+                            <li>
+                                <span>Phone Number :</span>
+                                <a href="tel: +1(21) 234 4567">+1(21) 234 4567</a>
+                            </li>
+                            <li>
+                                <span>Email :</span>
+                                <a href="mailto: info@example.com">info@example.com</a>
+                            </li>
+                            <li>
+                                <span>Support :</span>
+                                <a href="mailto: info@support.com">info@support.com</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__categories col-6 col-lg-2 mt-5 mt-lg-0">
+                        <h3>CATEGORIES</h3>
+                        <ul>
+                            <li><a href="#">Marketing Strategy</a></li>
+                            <li><a href="#">Startup Business</a></li>
+                            <li><a href="#">Web development</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__meta col-6 col-lg-2 mt-5 mt-lg-0">
+                        <h3>META</h3>
+                        <ul class="mb-0">
+                            <li><a href="#">Log in</a></li>
+                            <li><a href="#">Entries feed</a></li>
+                            <li><a href="#">Comments feed</a></li>
+                            <li><a href="#">WordPress.org</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container text-center">
+                <p>© 2023 Corp Vision All Rights Reserved | WordPress Theme by <span><a href="#">W3Layouts</a></span> .
+                </p>
+            </div>
+        </div>
+    </footer>
     <!-- Success -->
     <section class="success py-5">
-      <div class="container py-lg-5 py-md-4 py-2">
-        <div class="row">
-          <div class="col-lg-6 col-12 success__img">
-            <img src="./images/about.jpg" alt="" class="img-fluid" />
-          </div>
-          <div class="col-lg-6 col-12 mt-lg-0 mt-md-5 mt-4">
-            <p class="success__title-small m-0">YOUR SUCCESS IS OUR SUCCESS</p>
-            <h3 class="success__title-big mb-4 pb-lg-2">
-              Web design, marketing & SEO solutions that get results
-            </h3>
-            <div class="progress-info info1">
-              <h6 class="progress-title d-flex justify-content-between">
-                Marketing
-                <span>80%</span>
-              </h6>
-              <div class="progress">
-                <div
-                  class="progress-bar progress-bar-gradient1"
-                  role="progressbar"
-                  style="width: 80%"
-                  aria-valuenow="0"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+        <div class="container py-lg-5 py-md-4 py-2">
+            <div class="row">
+                <div class="col-lg-6 col-12 success__img">
+                    <img src="./images/about.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="col-lg-6 col-12 mt-lg-0 mt-md-5 mt-4">
+                    <p class="success__title-small m-0">YOUR SUCCESS IS OUR SUCCESS</p>
+                    <h3 class="success__title-big mb-4 pb-lg-2">
+                        Web design, marketing & SEO solutions that get results
+                    </h3>
+                    <div class="progress-info info1">
+                        <h6 class="progress-title d-flex justify-content-between">
+                            Marketing
+                            <span>80%</span>
+                        </h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-gradient1" role="progressbar" style="width: 80%"
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-info info2">
+                        <h6 class="progress-title d-flex justify-content-between">
+                            Responsive Web design
+                            <span>95%</span>
+                        </h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-gradient2" role="progressbar" style="width: 95%"
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-info info3">
+                        <h6 class="progress-title d-flex justify-content-between">
+                            Analytics
+                            <span>60%</span>
+                        </h6>
+                        <div class="progress info4">
+                            <div class="progress-bar progress-bar-gradient3" role="progressbar" style="width: 60%"
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-info info4">
+                        <h6 class="progress-title d-flex justify-content-between">
+                            Web Development
+                            <span>85%</span>
+                        </h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-gradient4" role="progressbar" style="width: 85%"
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="progress-info info2">
-              <h6 class="progress-title d-flex justify-content-between">
-                Responsive Web design
-                <span>95%</span>
-              </h6>
-              <div class="progress">
-                <div
-                  class="progress-bar progress-bar-gradient2"
-                  role="progressbar"
-                  style="width: 95%"
-                  aria-valuenow="0"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-            <div class="progress-info info3">
-              <h6 class="progress-title d-flex justify-content-between">
-                Analytics
-                <span>60%</span>
-              </h6>
-              <div class="progress info4">
-                <div
-                  class="progress-bar progress-bar-gradient3"
-                  role="progressbar"
-                  style="width: 60%"
-                  aria-valuenow="0"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-            <div class="progress-info info4">
-              <h6 class="progress-title d-flex justify-content-between">
-                Web Development
-                <span>85%</span>
-              </h6>
-              <div class="progress">
-                <div
-                  class="progress-bar progress-bar-gradient4"
-                  role="progressbar"
-                  style="width: 85%"
-                  aria-valuenow="0"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
     <!-- End Success -->
 
     <!-- testimonials  -->
     <section class="testimonials" id="testimonials">
-      <div class="customer-layout">
-        <div class="container Homepagestestimonials">
-          <h5 class="title-small text-center" style="color:var(--text) ;">
-            HAPPY CLIENTS FEEDBACK
-          </h5>
-          <h3 class="gallery-big text-center">Reviews and Testimonials</h3>
-          <div class="owl-carousel owl-theme">
-            <div class="testimonials__content">
-              <div class="testimonials__blockquote">
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet elit. Velit beatae laudantium
-                  voluptate rem ullam dolore nisi voluptatibus esse quasi,
-                  doloribus tempora. Dolores molestias adipisci dolo amet!.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-                  architecto est ea sunt eligendi cum?
-                </p>
-              </div>
-              <div class="testimonials__item d-flex justify-content-center">
-                <div class="testimonials__img">
-                  <img class="img-fluid" src="./images/team1.jpg" alt="team1" />
+        <div class="customer-layout">
+            <div class="container Homepagestestimonials">
+                <h5 class="title-small text-center" style="color:var(--text) ;">
+                    HAPPY CLIENTS FEEDBACK
+                </h5>
+                <h3 class="gallery-big text-center">Reviews and Testimonials</h3>
+                <div class="owl-carousel owl-theme">
+                    <div class="testimonials__content">
+                        <div class="testimonials__blockquote">
+                            <p class="text-center">
+                                Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                                voluptate rem ullam dolore nisi voluptatibus esse quasi,
+                                doloribus tempora. Dolores molestias adipisci dolo amet!.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                                architecto est ea sunt eligendi cum?
+                            </p>
+                        </div>
+                        <div class="testimonials__item d-flex justify-content-center">
+                            <div class="testimonials__img">
+                                <img class="img-fluid" src="./images/team1.jpg" alt="team1" />
+                            </div>
+                            <div class="testimonials__people">
+                                <h3>John wilson</h3>
+                                <p class="mb-0">Student</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials__content">
+                        <div class="testimonials__blockquote">
+                            <p class="text-center">
+                                Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                                voluptate rem ullam dolore nisi voluptatibus esse quasi,
+                                doloribus tempora. Dolores molestias adipisci dolo amet!.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                                architecto est ea sunt eligendi cum?
+                            </p>
+                        </div>
+                        <div class="testimonials__item d-flex justify-content-center">
+                            <div class="testimonials__img">
+                                <img class="img-fluid" src="./images/team2.jpg" alt="team2" />
+                            </div>
+                            <div class="testimonials__people">
+                                <h3>John wilson</h3>
+                                <p class="mb-0">Student</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials__content">
+                        <div class="testimonials__blockquote">
+                            <p class="text-center">
+                                Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                                voluptate rem ullam dolore nisi voluptatibus esse quasi,
+                                doloribus tempora. Dolores molestias adipisci dolo amet!.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                                architecto est ea sunt eligendi cum?
+                            </p>
+                        </div>
+                        <div class="testimonials__item d-flex justify-content-center">
+                            <div class="testimonials__img">
+                                <img class="img-fluid" src="./images/team3.jpg" alt="team3" />
+                            </div>
+                            <div class="testimonials__people">
+                                <h3>John wilson</h3>
+                                <p class="mb-0">Student</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials__content">
+                        <div class="testimonials__blockquote">
+                            <p class="text-center">
+                                Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                                voluptate rem ullam dolore nisi voluptatibus esse quasi,
+                                doloribus tempora. Dolores molestias adipisci dolo amet!.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                                architecto est ea sunt eligendi cum?
+                            </p>
+                        </div>
+                        <div class="testimonials__item d-flex justify-content-center">
+                            <div class="testimonials__img">
+                                <img class="img-fluid" src="./images/team4.jpg" alt="team4" />
+                            </div>
+                            <div class="testimonials__people">
+                                <h3>John wilson</h3>
+                                <p class="mb-0">Student</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="testimonials__people">
-                  <h3>John wilson</h3>
-                  <p class="mb-0">Student</p>
-                </div>
-              </div>
             </div>
-            <div class="testimonials__content">
-              <div class="testimonials__blockquote">
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet elit. Velit beatae laudantium
-                  voluptate rem ullam dolore nisi voluptatibus esse quasi,
-                  doloribus tempora. Dolores molestias adipisci dolo amet!.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-                  architecto est ea sunt eligendi cum?
-                </p>
-              </div>
-              <div class="testimonials__item d-flex justify-content-center">
-                <div class="testimonials__img">
-                  <img class="img-fluid" src="./images/team2.jpg" alt="team2" />
-                </div>
-                <div class="testimonials__people">
-                  <h3>John wilson</h3>
-                  <p class="mb-0">Student</p>
-                </div>
-              </div>
-            </div>
-            <div class="testimonials__content">
-              <div class="testimonials__blockquote">
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet elit. Velit beatae laudantium
-                  voluptate rem ullam dolore nisi voluptatibus esse quasi,
-                  doloribus tempora. Dolores molestias adipisci dolo amet!.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-                  architecto est ea sunt eligendi cum?
-                </p>
-              </div>
-              <div class="testimonials__item d-flex justify-content-center">
-                <div class="testimonials__img">
-                  <img class="img-fluid" src="./images/team3.jpg" alt="team3" />
-                </div>
-                <div class="testimonials__people">
-                  <h3>John wilson</h3>
-                  <p class="mb-0">Student</p>
-                </div>
-              </div>
-            </div>
-            <div class="testimonials__content">
-              <div class="testimonials__blockquote">
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet elit. Velit beatae laudantium
-                  voluptate rem ullam dolore nisi voluptatibus esse quasi,
-                  doloribus tempora. Dolores molestias adipisci dolo amet!.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-                  architecto est ea sunt eligendi cum?
-                </p>
-              </div>
-              <div class="testimonials__item d-flex justify-content-center">
-                <div class="testimonials__img">
-                  <img class="img-fluid" src="./images/team4.jpg" alt="team4" />
-                </div>
-                <div class="testimonials__people">
-                  <h3>John wilson</h3>
-                  <p class="mb-0">Student</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
     <!-- End testimonials  -->
     <!-- subscribe -->
     <section class="subscribe py-5">
-      <div class="container py-md-5 py-sm-4 py-2">
-        <div class="bottom">
-          <div class="sub-header">
-            <h3 class="text-white text-center display-6 fw-bold">
-              Let’s find out how to work together
-            </h3>
-            <p class="text-white-50 text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet
-              velit ad placeat <br />
-              tempore nisi cupiditate odit delectus perspiciatis!
-            </p>
-          </div>
-          <form action="" class="sub-footer mt-5">
-            <div class="input-group-text">
-              <span class="fa fa-paper-plane"></span>
-              <input type="email" placeholder="Your Email Address" />
-              <button class="btn btn-style btn-success" style="font-size: 30px">
-                Subscribe
-              </button>
+        <div class="container py-md-5 py-sm-4 py-2">
+            <div class="bottom">
+                <div class="sub-header">
+                    <h3 class="text-white text-center display-6 fw-bold">
+                        Let’s find out how to work together
+                    </h3>
+                    <p class="text-white-50 text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet
+                        velit ad placeat <br />
+                        tempore nisi cupiditate odit delectus perspiciatis!
+                    </p>
+                </div>
+                <form action="" class="sub-footer mt-5">
+                    <div class="input-group-text">
+                        <span class="fa fa-paper-plane"></span>
+                        <input type="email" placeholder="Your Email Address" />
+                        <button class="btn btn-style btn-success" style="font-size: 30px">
+                            Subscribe
+                        </button>
+                    </div>
+                </form>
             </div>
-          </form>
         </div>
-      </div>
     </section>
     <!-- end subscribe -->
 
-     <!-- THEME BUTTON -->
-     <div>
+    <!-- JS -->
+
+    <!-- THEME BUTTON -->
+    <div>
         <label for="checkbox"
             class="theme-switch position-fixed bottom-0 left-0 bg-primary text-white fw-bolder rounded-3 px-5 py-4  m-4"
             style="cursor: pointer;">
@@ -463,19 +838,15 @@
 
     <!-- move top -->
     <section class="copyright text-center">
-      <div class="container">
-        <p class="mb-0">
-          © 2022 Corp Vision All Rights Reserved | WordPress Theme by
-          <a href="#">W3Layouts.</a>
-        </p>
-        <button
-          id="moveToTop"
-          onclick="scrollToTop()"
-          class="btn btn-success p-0"
-        >
-          <i class="fa fa-angle-up"></i>
-        </button>
-      </div>
+        <div class="container">
+            <p class="mb-0">
+                © 2022 Corp Vision All Rights Reserved | WordPress Theme by
+                <a href="#">W3Layouts.</a>
+            </p>
+            <button id="moveToTop" onclick="scrollToTop()" class="btn btn-success p-0">
+                <i class="fa fa-angle-up"></i>
+            </button>
+        </div>
     </section>
     <!-- Js Library 3.6.0 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -488,134 +859,173 @@
     <!-- slick -->
     <script type="text/javascript" src="./js/slick.min.js"></script>
 
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- BOOTSTRAP 5.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- WOW -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-      $(document).ready(function () {
-        $(".carousel__slider").slick({
-          fade: true,
-          infinite: true,
-          adaptiveHeight: true,
-          autoplay: true,
-          mobileFirst: true,
-        });
-      });
+        new WOW().init();
     </script>
-    <!-- slick -->
 
-    <!-- owl carousel -->
-    <script src="./js/owl.carousel.min.js"></script>
-
+    <!-- OWL2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-      $(".owl-carousel").owlCarousel({
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+</body>
+<script>
+    $(document).ready(function () {
+        $(".carousel__slider").slick({
+            fade: true,
+            infinite: true,
+            adaptiveHeight: true,
+            autoplay: true,
+            mobileFirst: true,
+        });
+    });
+</script>
+<!-- slick -->
+
+<!-- owl carousel -->
+<script src="./js/owl.carousel.min.js"></script>
+
+<script>
+    $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 10,
         responsive: {
-          0: {
-            items: 1,
-          },
-          768: {
-            items: 1,
-          },
-          1000: {
-            items: 1,
-          },
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            },
+            1000: {
+                items: 1,
+            },
         },
-      });
-    </script>
-    <!-- owl carousel -->
+    });
+</script>
+<!-- owl carousel -->
 
-    <!-- move to top -->
-    <script>
-      window.onscroll = function () {
+<!-- move to top -->
+<script>
+    window.onscroll = function () {
         scrollFunction();
-      };
+    };
 
-      function scrollFunction() {
+    function scrollFunction() {
         if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
         ) {
-          document.getElementById("moveToTop").style.display = "block";
+            document.getElementById("moveToTop").style.display = "block";
         } else {
-          document.getElementById("moveToTop").style.display = "none";
+            document.getElementById("moveToTop").style.display = "none";
         }
-      }
+    }
 
-      function scrollToTop() {
+    function scrollToTop() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
-      }
-    </script>
-    <!-- move to top -->
+    }
+</script>
+<!-- move to top -->
 
-    <!-- fixed header -->
-    <script>
-      $(window).on("scroll", function () {
+<!-- fixed header -->
+<script>
+    $(window).on("scroll", function () {
         var scroll = $(window).scrollTop();
 
         if (scroll >= 80) {
-          $("#cyber-header").addClass("nav-fixed");
+            $("#cyber-header").addClass("nav-fixed");
         } else {
-          $("#cyber-header").removeClass("nav-fixed");
+            $("#cyber-header").removeClass("nav-fixed");
         }
-      });
+    });
 
-      //Main navigation Active Class Add Remove
-      $(".navbar-toggler").on("click", function () {
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function () {
         $("header").toggleClass("active");
-      });
-      $(document).on("ready", function () {
+    });
+    $(document).on("ready", function () {
         if ($(window).width() > 991) {
-          $("header").removeClass("active");
+            $("header").removeClass("active");
         }
         $(window).on("resize", function () {
-          if ($(window).width() > 991) {
-            $("header").addClass("active");
-          }
+            if ($(window).width() > 991) {
+                $("header").addClass("active");
+            }
         });
-      });
-    </script>
-    <!-- fixed header -->
+    });
+</script>
+<!-- fixed header -->
 
-    <!-- dark-light theme -->
-    <script>
-      document.getElementById("switchButton").onclick = function () {
-    document.getElementById("mybody").classList.toggle("dark");
-      };
-    </script>
+<!-- dark-light theme -->
+<script>
+    document.getElementById("switchButton").onclick = function () {
+        document.getElementById("mybody").classList.toggle("dark");
+    };
+</script>
 
-    <!-- dark-light theme -->
+<!-- dark-light theme -->
 
-    <!-- search -->
-    <script>
-      $(".header__control").click(function () {
+<!-- search -->
+<script>
+    $(".header__control").click(function () {
         $("body").addClass("search-active");
         $(".header__input-search").focus();
-      });
+    });
 
-      $(".fa-close").click(function () {
+    $(".fa-close").click(function () {
         $("body").removeClass("search-active");
-      });
-    </script>
-    <!-- search -->
+    });
+</script>
+<!-- search -->
 
-    <!-- noscroll
+<!-- noscroll
    -->
-    <script>
-      $(function () {
+<script>
+    $(function () {
         $(".navbar-toggler").click(function () {
-          $("body").toggleClass("noscroll");
+            $("body").toggleClass("noscroll");
         });
-      });
-    </script>
-    <!-- noscroll
+    });
+</script>
+<!-- noscroll
    -->
-    <!-- fancybox -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
-      integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <!-- fancybox -->
-  </body>
+<!-- fancybox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+    integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- fancybox -->
+</body>
+
 </html>
