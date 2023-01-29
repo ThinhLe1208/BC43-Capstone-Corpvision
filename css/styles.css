@@ -258,6 +258,13 @@ body {
   section.about ul li {
     margin-bottom: 5px;
   }
+  .subscribe input[type="email"] {
+    padding: 0px 0px !important;
+  }
+.btn-style{
+  font-size: 12px !important;
+  display: block !important;
+}
 
   footer p {
     font-size: 17px;
