@@ -25,6 +25,11 @@
     <!-- ANIMATE -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    <!-- OWL2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/responsive.css">
@@ -35,10 +40,11 @@
 
     <!-- HEADER -->
     <header class="header fixed-top">
+
         <div class="container">
             <nav class="navbar navbar-expand-lg">
 
-                <a class="navbar-brand d-flex flex-start w-25" href="#">
+                <a class="navbar-brand d-flex flex-start" href="#">
                     <i class="fa fa-align-right me-2 mt-1"></i>
                     <div class="d-flex flex-column align-items-center">
                         <span>Corp Vision</span>
@@ -83,12 +89,11 @@
                         </li>
                     </ul>
 
-
                 </div>
 
                 <div class="header__search d-flex align-items-center">
                     <form class="d-flex" role="search">
-                        <input class="form-control" placeholder="Start Typing" aria-label="Search">
+                        <input class="form-control input-search" placeholder="Start Typing" aria-label="Search">
                         <div class="header__search-control">
                             <div class="search-open">
                                 <i class="fa fa-search"></i>
@@ -107,17 +112,19 @@
                         </label>
                     </div>
                 </div>
+
+                <div class="header__overlay"></div>
+
             </nav>
         </div>
     </header>
 
     <!-- SLIDER -->
     <section class="slider">
-
-        <div id="slider-carousel" class="carousel slide carousel-fade">
+        <div id="slider-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-bs-interval="3000">
                     <img src="./images/b1.jpg" class="d-block w-100" alt="b1">
                     <div class="position-absolute top-0 start-0 end-0 bottom-0">
                         <div class="carousel-caption container d-block">
@@ -136,7 +143,7 @@
                     </div>
                     <div class="slider__overlay"></div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="./images/b2.jpg" class="d-block w-100" alt="b2">
                     <div class="position-absolute top-0 start-0 end-0 bottom-0">
                         <div class="carousel-caption container d-block">
@@ -152,7 +159,7 @@
                     </div>
                     <div class="slider__overlay"></div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="./images/b3.jpg" class="d-block w-100" alt="b3">
                     <div class="position-absolute top-0 start-0 end-0 bottom-0">
                         <div class="carousel-caption container d-block">
@@ -168,7 +175,7 @@
                     </div>
                     <div class="slider__overlay"></div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="./images/b4.jpg" class="d-block w-100" alt="b4">
                     <div class="position-absolute top-0 start-0 end-0 bottom-0">
                         <div class="carousel-caption container d-block">
@@ -193,7 +200,6 @@
                     data-bs-slide="next">
                     <i class="fa fa-arrow-right"></i>
                 </button>
-
             </div>
 
             <div class="shape">
@@ -205,55 +211,18 @@
                     </path>
                 </svg>
             </div>
+
+        </div>
     </section>
 
     <!-- ABOUT -->
-    <section class="about py-5">
-        <div class="container py-lg-5 py-md-3">
-            <div class="row align-items-center">
-                <div class="about__left col-6">
-                    <div class="title">
-                        <h3>ABOUT US</h3>
-                        <h2>We make the best strategies for you, Enhancing your success</h2>
-                    </div>
-                    <p class="mt-md-4 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut ex ea.</p>
-                    <ul class="pt-lg-2 mt-4">
-                        <li><a href="#">
-                                <i class="fa fa-check-circle"></i>
-                                <span>UI/UX Design and Development</span>
-                            </a></li>
-                        <li><a href="#">
-                                <i class="fa fa-check-circle"></i>
-                                <span>Branding Design and Identity</span>
-                            </a></li>
-                        <li><a href="#">
-                                <i class="fa fa-check-circle"></i>
-                                <span>Mobile App Design and Development</span>
-                            </a></li>
-                    </ul>
-                </div>
-                <div class="about__right col-6">
-                    <div class="row">
-                        <div class="col-6">
-                            <img src="./images/a.jpg" alt="" class="">
-                        </div>
-                        <div class="col-6 mt-4">
-                            <img src="./images/c1.jpg" alt="" class="mb-2 mb-md-3">
-                            <img src="./images/c4.jpg" alt="" class="mt-md-3">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="about"></section>
 
     <!-- WORK -->
     <section class="work py-5">
         <div class="container py-2 py-md-4 py-lg-5">
-            <div class="row">
+            <div class="row align-items-center">
+
                 <div class="work__left col-12 col-lg-6 pe-5">
                     <div class="title">
                         <h3>EVERY DAY BRINGS NEW CHALLENGES</h3>
@@ -265,8 +234,9 @@
                         Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.</p>
                     <a href="#" class="mt-4 mt-lg-5">Discover More</a>
                 </div>
+
                 <div class="work__right mt-4 mt-md-5 mt-lg-0 col-12 col-lg-6">
-                    <div class="row">
+                    <div class="row px-2 px-sm-0">
                         <div class="work__item col-6">
                             <img src="./images/icon1.png" alt="icon1">
                             <a href="#">Our Process</a>
@@ -285,6 +255,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -293,6 +264,7 @@
     <section class="services py-5">
         <div class="container py-2 py-md-4 py-lg-5">
             <div class="row justify-content-center">
+
                 <div class="title text-center mb-5">
                     <h2>Always there for your care, our Services</h2>
                 </div>
@@ -509,6 +481,11 @@
 
     <script src="./js/main.js"></script>
 
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- BOOTSTRAP 5.3 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
@@ -520,6 +497,29 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         new WOW().init();
+    </script>
+
+    <!-- OWL2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
     </script>
 </body>
 
