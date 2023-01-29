@@ -267,7 +267,15 @@ body {
     font-size: 26px;
   }
 }
-
+@media only screen and (max-width: 320px){
+.subscribe input[type="email"] {
+    padding: 0px 0px !important;
+  }
+.btn-style{
+  font-size: 12px !important;
+  display: block !important;
+}
+}
 /* keyframes */
 
 @keyframes flipInX {
