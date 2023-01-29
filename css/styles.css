@@ -224,154 +224,12 @@ body {
   }
 }
 @media only screen and (max-width: 991px) {
-  header.main-header {
-    height: auto;
-    padding: 20px 0;
-  }
-
-  .navbar .navbar-brand {
-    font-size: 32px;
-  }
-
-  .navbar-nav {
-    animation-name: none;
-    float: left;
-    text-align: center;
-    width: 100%;
-    padding: 20px 0;
-  }
-
-  .navbar-expand-lg .navbar-nav .nav-item {
-    animation: none;
-    padding: 0;
-  }
-
-  #navbarContent .nav-link {
-    display: block;
-    text-align: center;
-    padding: 6px 0;
-  }
-
-  #navbarContent .dropdown-menu {
-    transform: translateX(0px);
-    text-align: center;
-  }
-
-  .navbar-collapse {
-    max-height: calc(100vh - 80px);
-    overflow-y: scroll;
-  }
-
-  .navbar-toggler {
-    padding: 0 !important;
-    border: 0;
-    font-size: 24px;
-  }
-
-  .navbar-toggler-icon.fa {
-    font-size: 20px;
-    line-height: 1.2em;
-    color: #fff;
-    line-height: 34px;
-  }
-
-  .navbar-toggler-icon {
-    background-image: none;
-    padding: 0;
-    width: 34px;
-    height: 34px;
-    display: inline-block;
-    background-color: var(--primary-color);
-    border-radius: 4px;
-    text-align: center;
-  }
-
-  .header__search {
-    position: absolute;
-    top: 10px;
-    right: 65px;
-  }
-
-  .header__control .header__searchButton {
-    font-size: 14px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-  }
-
-  .header__search .fa-close {
-    right: -50px;
-  }
-
-  #switchButton.header__modecontainer {
-    position: absolute;
-    right: 44px;
-    top: 18px;
-  }
-
-  .carousel__content h1 {
-    font-size: 50px;
-  }
-
-  .slick-initialized .carousel__item {
-    min-height: 700px;
-  }
-
   .footer__contact h6 {
     margin-bottom: 20px;
-  }
-
-  .header__search-input .header__input-search {
-    position: absolute;
-    right: -50%;
-    width: initial;
-  }
-
-  header.nav-fixed {
-    height: auto;
-    padding: 15px 0;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .slick-initialized .carousel__item {
-    min-height: 650px;
-    padding-bottom: 40px;
-  }
-
-  .carousel__content h1 {
-    font-size: 45px;
-  }
-
-  .carousel__content p {
-    font-size: 18px;
-    line-height: 28px;
-  }
-}
-
-@media only screen and (max-width: 736px) {
-  .header__search .fa-close {
-    right: -110px;
-    z-index: 9;
-  }
-
-  .header__search-input .header__input-search {
-    position: absolute;
-    right: -80px;
   }
 }
 
 @media only screen and (max-width: 568px) {
-  .slick-initialized .carousel__item {
-    min-height: 600px;
-    padding-bottom: 0;
-  }
-
-  .carousel__content h1 {
-    font-size: 40px;
-  }
-
   .title__big {
     font-size: 30px !important;
     line-height: 38px;
@@ -380,68 +238,8 @@ body {
   section.about ul li {
     margin-bottom: 10px;
   }
-
-  .header__search .fa-close {
-    right: -60px;
-    z-index: 9;
-    font-size: 46px;
-  }
-
-  .header__search-input .header__input-search {
-    font-size: 46px;
-  }
 }
-
-@media only screen and (max-width: 480px) {
-  .navbar .navbar-brand {
-    font-size: 26px;
-  }
-
-  .slick-initialized .carousel__item {
-    min-height: 550px;
-  }
-
-  .carousel__content h1 {
-    font-size: 36px;
-  }
-
-  .navbar .navbar-brand span {
-    font-size: 13px;
-    padding-left: 38px;
-  }
-
-  #switchButton.header__modecontainer {
-    top: 13px;
-  }
-
-  .header__search {
-    top: 6px;
-  }
-
-  .header__search-input .header__input-search {
-    font-size: 40px;
-  }
-
-  .carousel__slider .slick-arrow {
-    width: 45px;
-    height: 45px;
-  }
-
-  .carousel__slider .slick-arrow.slick-prev {
-    right: 80px;
-  }
-
-  .carousel .slick-prev.slick-arrow:before,
-  .carousel .slick-next.slick-arrow:before {
-    font-size: 14px;
-    line-height: 42px;
-  }
-}
-
 @media only screen and (max-width: 415px) {
-  .carousel__content h1 {
-    font-size: 32px;
-  }
 
   .title__big {
     font-size: 26px !important;
@@ -459,22 +257,7 @@ body {
   footer__brand {
     font-size: 26px;
   }
-
-  .header__search-input .header__input-search {
-    right: -125px;
-  }
 }
-
-@media only screen and (max-width: 375px) {
-  .header__search .fa-close {
-    font-size: 35px;
-  }
-
-  .header__search-input .header__input-search {
-    font-size: 35px;
-  }
-}
-
 /* keyframes */
 
 @keyframes flipInX {
