@@ -1,17 +1,22 @@
 /* Global */
-:root {
-  --primary-color: #009f53;
-  --secondary-color: #213364;
-  --font-color: #666666;
-  --bg-color: #fff;
-  --heading-color: #3f3a64;
-  --border-color: transparent;
-  --border-color-light: #eee;
-  --bg-grey: #f7f7f7;
-  --bg-light-grey: #f8f9fa;
-  --layer: rgba(29, 42, 55, 0.7);
+:root,
+[data-theme="light"] {
+    --main-color: #009f4d;
+    --sub-color: #3f3a64;
+    --text: #666;
+    --border: 8px;
+    --border-color: #eee;
+    --bg-light: #fff;
+    --bg-dark: #f7f7f7;
 }
 
+[data-theme="dark"] {
+    --sub-color: #fff;
+    --text: #c2c2c2;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --bg-light: #151421;
+    --bg-dark: #100f19;
+}
 .noscroll {
   overflow: hidden;
   height: 100vh;
@@ -41,7 +46,7 @@ body {
 .title__big {
   font-size: 2.1875rem;
   font-weight: 700;
-  color: var(--heading-color);
+  color:var(--sub-color);
   line-height: 45px;
 }
 
@@ -53,34 +58,17 @@ body {
   margin-top: 24px;
 }
 
-.green__button {
-  display: block;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 18px;
-  color: var(--bg-color);
-  background-color: var(--primary-color);
-  border-radius: 8px;
-  border: 1px solid var(--primary-color);
-  padding: 15px 50px;
-  margin-top: 30px;
-  transition: all 0.5s;
-}
-
-.green__button:hover {
-  background-color: #008030;
-  border-color: #00732c;
-}
-
 /* about */
-
+.about{
+  background-color: var(--bg-light);
+}
 .about__image img {
   border-radius: 8px;
 }
 
 .about ul li a {
   font-size: 1.125rem;
-  color: var(--heading-color);
+  color: #3f3a64;
   line-height: 28px;
   font-weight: 600;
   text-decoration: none;
@@ -91,14 +79,12 @@ body {
 }
 
 .about ul li a i {
-  color: var(--primary-color);
+  color:var(--main-color);
   margin-right: 5px;
   opacity: 0.8;
 }
 
 /* work */
-
-
 
 /* gallery */
 
@@ -258,6 +244,7 @@ body {
     font-size: 26px;
   }
 }
+
 /* keyframes */
 
 @keyframes flipInX {
@@ -955,4 +942,11 @@ footer {
 #moveToTop:focus {
   border: none;
   box-shadow: none;
+}
+.theme-switch{
+  cursor: pointer;
+  /* position: fixed; */
+  background: red;
+  left: 0;
+  bottom: 0;
 }
