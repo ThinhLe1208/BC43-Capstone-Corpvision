@@ -1,25 +1,25 @@
 // MENU
 
-// window.onscroll = function () {
-//     var scroll = window.scrollY;
+window.onscroll = function () {
+    var scroll = window.scrollY;
 
-//     if (scroll >= 80) {
-//         document.querySelector("header").classList.add("nav-fixed");
-//     } else {
-//         document.querySelector("header").classList.remove("nav-fixed");
-//     }
-// };
+    if (scroll >= 80) {
+        document.querySelector("header").classList.add("nav-fixed");
+    } else {
+        document.querySelector("header").classList.remove("nav-fixed");
+    }
+};
 
 // SEARCH BTN
 
-// document.querySelector('.search-open').onclick = function () {
-//     document.querySelector('body').classList.add('search-active');
-//     document.querySelector('.input-search').focus();
-// };
+document.querySelector('.search-open').onclick = function () {
+    document.querySelector('body').classList.add('search-active');
+    document.querySelector('.input-search').focus();
+};
 
-// document.querySelector('.search-close').onclick = function () {
-//     document.querySelector('body').classList.remove('search-active');
-// };
+document.querySelector('.search-close').onclick = function () {
+    document.querySelector('body').classList.remove('search-active');
+};
 
 //  CHANGE THEME
 
