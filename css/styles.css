@@ -17,6 +17,20 @@
     --bg-light: #151421;
     --bg-dark: #100f19;
 }
+button {
+  cursor: pointer;
+}
+
+input,
+textarea,
+button {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  font-family: 'Jost', sans-serif;
+  background-color: transparent;
+}
+
 .noscroll {
   overflow: hidden;
   height: 100vh;
@@ -68,7 +82,7 @@ body {
 
 .about ul li a {
   font-size: 1.125rem;
-  color: #3f3a64;
+  color: var(--sub-color);
   line-height: 28px;
   font-weight: 600;
   text-decoration: none;
