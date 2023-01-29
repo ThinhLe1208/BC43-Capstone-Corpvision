@@ -35,7 +35,6 @@ if (currentTheme) {
 }
 
 function switchTheme(e) {
-    debugger;
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');

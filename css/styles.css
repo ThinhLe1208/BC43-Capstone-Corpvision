@@ -17,6 +17,10 @@
     --bg-light: #151421;
     --bg-dark: #100f19;
 }
+body a{
+  -webkit-animation-delay: 0.5s all;
+  transition: 0.5s all;
+}
 button {
   cursor: pointer;
 }
@@ -103,7 +107,7 @@ body {
 /* gallery */
 
 .gallery {
-  background-color: var(--bg-light-grey);
+  background-color: var(--bg-light);
 }
 
 .gallery__title {
@@ -112,7 +116,7 @@ body {
 }
 .gallery-big{
   font-size: 40px;
-  color: #3f3a64;
+  color:var(--sub-color);
   font-weight: bold;
 }
 .gallery__item {
@@ -135,7 +139,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--layer);
+  background: var(--bg-light);
   opacity: 0;
   z-index: 1;
   transition: all 0.5s;
@@ -164,7 +168,7 @@ body {
   color: #fff;
   margin-bottom: 10px;
 }
-/* dracula */
+
 .gallery__content {
   display: block;
   font-size: 1.125rem;
@@ -172,12 +176,18 @@ body {
 }
 
 .gallery__logo {
-  border-top: 1px solid var(--border-color-light);
+  border-top: 1px solid var(--border-light);
 }
 
 .gallery__logo img {
   padding: 0 18px;
 }
+
+.success {
+  background-color:var(--bg-light);
+}
+
+
 
 
 
@@ -482,10 +492,10 @@ body {
 /* gallery */
 /* theme dark */
 .dark .gallery {
-  background-color: #100f19;
+  background-color:var(--bg-light);
 }
 .dark .gallery__title-big {
-  color: #fff;
+  color:var(--bg-light);
 }
 .dark .gallery__title-small {
   color: #9e9e93;
@@ -494,10 +504,6 @@ body {
   border-top: 1px solid #9e9e93;
 }
 /* theme dark */
-.gallery {
-  background-color: #F7F7F7;
-}
-
 .gallery__title-small {
   font-size: 14px;
   color: #7e7d7d;
@@ -507,10 +513,9 @@ body {
 
 .gallery__title-big {
   font-size: 35px;
-  color: #3f3a64;
+  color:var(--sub-color);
   font-weight: 700;
 }
-
 .gallery__item {
   overflow: hidden;
   position: relative;
@@ -563,9 +568,6 @@ body {
 
 /* success */
 /* theme dark */
-.dark .success {
-  background-color: #151421;
-}
 .dark .success__title-big,
 .dark .progress-title {
   color: #fff;
@@ -592,7 +594,7 @@ body {
 .success__title-big {
   font-size: 35px;
   line-height: 45px;
-  color: #3f3a64;
+  color:var(--sub-color);
   font-weight: 600;
 }
 
@@ -620,6 +622,7 @@ body {
 .progress-info {
   margin-bottom: 30px;
   position: relative;
+  color: var(--text);
 }
 
 .progress-info .progress {
@@ -722,7 +725,7 @@ body {
 /* review  */
 .testimonials {
   padding-top: 100px;
-  background-color: #f8f9fa;
+  background-color:var(--bg-light);
 }
 .testimonials__content {
   padding: 40px 30px;
@@ -763,7 +766,7 @@ body {
 .testimonials__people h3 {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #213364;
+  color:var(--sub-color);
 }
 
 .testimonials__people p {
