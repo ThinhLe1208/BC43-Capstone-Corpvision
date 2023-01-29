@@ -3,6 +3,21 @@
 window.onscroll = function () {
     var scroll = window.scrollY;
 
+    // move to top
+    scrollFunction();
+
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            document.getElementById("moveToTop").style.display = "block";
+        } else {
+            document.getElementById("moveToTop").style.display = "none";
+        }
+    }
+    // move to top
+
     if (scroll >= 80) {
         document.querySelector("header").classList.add("nav-fixed");
     } else {

@@ -75,13 +75,9 @@
         font-size: 50px;
         line-height: 55px;
     }
-}
-
-/* WORK */
-
-@media screen and (max-width: 991.98px) {
 
     /* WORK */
+
     .work .work__left p {
         font-size: 17px;
     }
@@ -108,18 +104,6 @@
 
     .work .work__right .work__item {
         padding: 24px;
-    }
-
-    /* TESTIMONIALS */
-
-    .owl-carousel .item {
-        padding: 20px 30px;
-    }
-
-    /* SUBSCRIBE */
-
-    .subscribe h3 {
-        font-size: 30px;
     }
 
     /* FOOTER */
@@ -182,12 +166,6 @@
         line-height: 45px;
     }
 
-    /* ABOUT */
-
-    .about__left a {
-        font-size: 16px;
-    }
-
     /* WORK */
     .work .work__right .work__item a {
         font-size: 18px;
@@ -195,24 +173,6 @@
 
     .work .work__right .work__item img {
         max-width: 45px;
-    }
-
-    /* GALLERY */
-
-    .gallery__text {
-        padding: 36px 40px;
-    }
-
-    /* TESTIMONIALS */
-
-    .owl-carousel .item {
-        padding: 20px 0;
-    }
-
-    /* SUBSCRIBE */
-
-    .subscribe h3 {
-        font-size: 24px;
     }
 
     /* FOOTER */
@@ -266,5 +226,94 @@
         max-height: calc(100vh - 80px);
         overflow: scroll;
         padding: 0 10px;
+    }
+}
+
+
+/* -------- HUY -------- */
+
+/* @media (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+} */
+
+/* @media only screen and (max-width: 1199px) {
+    .navbar .navbar-brand {
+        font-size: 32px;
+    }
+} */
+
+@media only screen and (max-width: 1080px) {
+    .title__big {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+/* @media only screen and (max-width: 991px) {
+    .footer__contact h6 {
+        margin-bottom: 20px;
+    }
+} */
+@media screen and (max-width: 767.98px) {
+
+    .testimonials__content {
+        padding: 20px 30px;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .title__big {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    section.about ul li {
+        margin-bottom: 10px;
+    }
+
+    .testimonials__content {
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+
+    .title__big {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    section.about ul li {
+        margin-bottom: 5px;
+    }
+
+    .subscribe input[type="email"] {
+        padding: 0px 0px;
+    }
+
+    .btn-style {
+        font-size: 12px;
+        display: block;
+    }
+
+    /* footer p {
+        font-size: 17px;
+    }
+
+    footer__brand {
+        font-size: 26px;
+    } */
+}
+
+@media only screen and (max-width: 320px) {
+    .subscribe input[type="email"] {
+        padding: 0px 0px;
+    }
+
+    .btn-style {
+        font-size: 12px;
+        display: block;
     }
 }
