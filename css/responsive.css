@@ -75,10 +75,13 @@
         font-size: 50px;
         line-height: 55px;
     }
+}
 
+/* WORK */
+
+@media screen and (max-width: 991.98px) {
 
     /* WORK */
-
     .work .work__left p {
         font-size: 17px;
     }
